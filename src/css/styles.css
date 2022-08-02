@@ -515,6 +515,9 @@ video {
   margin-left: -0.75rem;
   margin-right: -0.75rem;
 }
+.mb-4 {
+  margin-bottom: 1rem;
+}
 .mb-3 {
   margin-bottom: 0.75rem;
 }
@@ -534,6 +537,9 @@ video {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+}
+.flex-col {
+  flex-direction: column;
 }
 .flex-wrap {
   flex-wrap: wrap;
@@ -587,19 +593,27 @@ video {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
 .font-bold {
   font-weight: 700;
 }
 .leading-tight {
   line-height: 1.25;
 }
-.text-gray-700 {
-  --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity));
-}
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
@@ -641,28 +655,39 @@ body {
   right: 5px;
   transform: rotate(45deg);
 }
-.inputField:nth-child(even) {
-  background-color: #fff;
+
+.bg-field {
+  background-color: #d1cdcd !important;
 }
-.inputField:nth-child(odd) {
+
+.small-text {
+  font-size: 0.8rem !important;
+}
+
+/* .inputField:nth-child(odd) {
   background-color: #f2f2f2;
-}
+} */
+
 .hover\:bg-emerald-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(4 120 87 / var(--tw-bg-opacity));
 }
+
 .focus\:border-gray-500:focus {
   --tw-border-opacity: 1;
   border-color: rgb(107 114 128 / var(--tw-border-opacity));
 }
+
 .focus\:bg-white:focus {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
+
 @media (min-width: 1024px) {
 
   .lg\:mb-6 {

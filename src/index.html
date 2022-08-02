@@ -9,8 +9,14 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="w-full flex justify-center items-center">
+    <div class="w-full flex flex-col justify-center items-center">
+      
       <form id="form1" class="w-full lg:w-5/12">
+        <h1 class="text-3xl text-white mb-4">Multi Text Form</h1>
+        <p class="text-white text-lg" mb-4>Please give your feedback below:</p>
+        <p class="text-white text-lg">Click <u>New Line</u> if you need more space.</p>
+        <p class="text-white text-lg mb-4">Click <strong>X</strong> to remove the current line.</p>
+        <p class="text-white text-lg mb-4">Your review must be at least 50 characters, but<br /> no more than 1000 characters.</p>
         <div class="inputs flex flex-wrap -mx-3 mb-3 lg:mb-6">
           <div
             class="w-full flex justify-between items-start px-3"
@@ -19,7 +25,7 @@
               class="inputField appearance-none block w-full text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
               id="input0"
               type="text"
-              placeholder="input here ..."
+              placeholder="enter your text here ..."
             /><button
               class="button close-button ml-4 relative rounded shadow bg-emerald-600 hover:bg-emerald-700 focus:shadow-outline focus:outline-none text-white font-bold p-6"
             ></button>

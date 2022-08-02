@@ -37,6 +37,14 @@ body {
   transform: rotate(45deg);
 }
 
-.inputField:nth-child(odd) {
-  background-color: #f2f2f2;
+.bg-field {
+  background-color: #d1cdcd !important;
 }
+
+.small-text {
+  font-size: 0.8rem !important;
+}
+
+/* .inputField:nth-child(odd) {
+  background-color: #f2f2f2;
+} */
