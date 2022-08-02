@@ -13,7 +13,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Installation
 
-_Follow the steps below to run your project locally._
+_Follow the steps below to run the project locally._
 
 1. Clone the repo
    ```sh
