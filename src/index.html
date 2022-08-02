@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Multi text form</title>
+    <meta name="description" content="Multi text form" />
+    <meta name="author" content="afranchitti@gmail.com" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="w-full flex justify-center items-center">
+      <form id="form1" class="w-full lg:w-5/12">
+        <div class="inputs flex flex-wrap -mx-3 mb-3 lg:mb-6">
+          <div
+            class="w-full flex justify-between items-start px-3"
+          >
+            <input
+              class="inputField appearance-none block w-full text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+              id="input0"
+              type="text"
+              placeholder="input here ..."
+            /><button
+              class="button close-button ml-4 relative rounded shadow bg-emerald-600 hover:bg-emerald-700 focus:shadow-outline focus:outline-none text-white font-bold p-6"
+            ></button>
+          </div>
+        </div>
+        <div class="flex flex-wrap -mx-3 mb-3 lg:mb-6"">
+          <div
+            class="w-full flex justify-between items-start px-3"
+          >
+            <button
+              id="newLine"
+              class="shadow bg-emerald-600 hover:bg-emerald-700 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6"
+            >
+              New Line
+            </button>
+          </div>
+        </div>
+        <div class="flex flex-wrap -mx-3 mb-3 lg:mb-6"">
+          <div class="w-full px-3">
+            <textarea
+              id="textArea"
+              rows="10"
+              class="appearance-none block w-full text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+            >
+            </textarea>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      defer
+    ></script>
+    <script src="js/jquery.js" defer></script>
+  </body>
+</html>

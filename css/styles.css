@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #35dc9b;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  margin: 0;
+}
+
+.close-button::before {
+  content: " ";
+  background-color: #fff;
+  position: absolute;
+  display: block;
+  height: 2px;
+  top: 23px;
+  left: 5px;
+  right: 5px;
+  transform: rotate(-45deg);
+}
+.close-button::after {
+  content: " ";
+  background-color: #fff;
+  position: absolute;
+  display: block;
+  height: 2px;
+  top: 23px;
+  left: 5px;
+  right: 5px;
+  transform: rotate(45deg);
+}
+
+.inputField:nth-child(odd) {
+  background-color: #f2f2f2;
+}
