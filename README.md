@@ -2,9 +2,9 @@
 
 ### Built With
 
-- [![HTML][html.com]][html-url]
-- [![JQuery][jquery.com]][jquery-url]
-- [![tailwind][tailwindcss.com]][tailwindcss-url]
+- HTML
+- JQuery
+- tailwindcss
 
 ## Getting Started
 
